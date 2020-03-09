@@ -1,20 +1,17 @@
 <template>
-  <div id="app">
-      <div class="test">
-          dafsa
-      </div>
-      hello world
+  <div id="app-container">
+      <Layout />
   </div>
 </template>
 
 <script>
+import Layout from '@/layout'
 export default {
-
+  components: {
+    Layout
+  }
 }
 </script>
 
-<style lang="scss" scoped>
-  .test {
-    color: $bg;
-  }
+<style lang="postcss" scoped>
 </style>
